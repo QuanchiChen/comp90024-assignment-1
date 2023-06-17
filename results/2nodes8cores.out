@@ -1,0 +1,59 @@
+The number of tweets processed by Rank 5 : 1085479
+The number of tweets processed by Rank 2 : 1212477
+The number of tweets processed by Rank 0 : 1185275
+The number of tweets processed by Rank 6 : 998211
+The number of tweets processed by Rank 7 : 961832
+The number of tweets processed by Rank 4 : 1212152
+The number of tweets processed by Rank 3 : 1223289
+The number of tweets processed by Rank 1 : 1213559
+
+Approximate Time for Parallel Computations: 112.71595096588135 seconds
+
+Task 1:
+
+Rank    Author Id            Number of Tweets Made
+------  -------------------  -----------------------
+#1      1089023364973219840  28128
+#2      826332877457481728   27581
+#3      1250331934242123776  25266
+#4      1423662808311287813  21030
+#5      1183144981252280322  20656
+#6      820431428835885059   20063
+#7      1270672820792508417  19801
+#8      233782487            18179
+#9      84958532             15676
+#10     719139700318081024   15314
+
+Task 2:
+
+Greater Capital City             Number of Tweets Made
+-------------------------------  -----------------------
+1gsyd (Greater Sydney)           2119334
+2gmel (Greater Melbourne)        2286880
+3gbri (Greater Brisbane)         858187
+4gade (Greater Adelaide)         463209
+5gper (Greater Perth)            589682
+6ghob (Greater Hobart)           90758
+7gdar (Greater Darwin)           46390
+8acte (Greater Canberra)         202690
+9oter (Great Other Territories)  182
+
+Task 3:
+
+Rank    Author Id            Number of Unique City Locations and #Tweets
+------  -------------------  -------------------------------------------------------------------------------------------
+#1      1429984556451389440  8(#1920tweets - 10gsyd, 1880gmel, 6gbri, 2gade, 7gper, 1ghob, 1gdar, 13acte, 0oter)
+#2      17285408             8(#1209tweets - 1061gsyd, 60gmel, 40gbri, 3gade, 7gper, 11ghob, 4gdar, 23acte, 0oter)
+#3      702290904460169216   8(#1171tweets - 296gsyd, 261gmel, 230gbri, 122gade, 152gper, 42ghob, 21gdar, 47acte, 0oter)
+#4      87188071             8(#395tweets - 110gsyd, 86gmel, 65gbri, 29gade, 51gper, 15ghob, 5gdar, 34acte, 0oter)
+#5      774694926135222272   8(#272tweets - 37gsyd, 38gmel, 37gbri, 28gade, 34gper, 36ghob, 28gdar, 34acte, 0oter)
+#6      1361519083           8(#260tweets - 12gsyd, 36gmel, 1gbri, 9gade, 1gper, 2ghob, 193gdar, 6acte, 0oter)
+#7      502381727            8(#250tweets - 2gsyd, 214gmel, 8gbri, 4gade, 3gper, 8ghob, 1gdar, 10acte, 0oter)
+#8      921197448885886977   8(#205tweets - 46gsyd, 58gmel, 37gbri, 24gade, 28gper, 4ghob, 1gdar, 7acte, 0oter)
+#9      601712763            8(#146tweets - 44gsyd, 39gmel, 11gbri, 19gade, 14gper, 8ghob, 1gdar, 10acte, 0oter)
+#10     2647302752           8(#80tweets - 13gsyd, 16gmel, 32gbri, 3gade, 4gper, 5ghob, 3gdar, 4acte, 0oter)
+
+Approximate Time for Non-Parallel Computations: 1.765141487121582 seconds
+
+Total Time: 114.48109245300293 seconds
+
